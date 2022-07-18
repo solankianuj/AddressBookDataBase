@@ -25,5 +25,10 @@ update Persons_Details set state = 'MP' where firstName ='ajay' ;
 
 select * from Persons_Details ;
 
+delete from Persons_Details where firstName= 'ajay';
+select * from Persons_Details ;
+
+
+
 
 
