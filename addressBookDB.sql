@@ -22,7 +22,7 @@ insert into Persons_Details (firstName, lastName, address, city, state, zipCode,
 select * from Persons_Details ;
 
 select * from Persons_Details where state= 'MP';
-select count(city and state) from Persons_Details ;
+select firstName from Persons_Details where state = 'rajhsthan'  order by firstName asc  ;
 
 
 
