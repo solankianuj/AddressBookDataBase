@@ -19,14 +19,11 @@ insert into Persons_Details (firstName, lastName, address, city, state, zipCode,
 ( 'rahul' , 'singh', 'indore', 'indore', 'MP', 4510, 7688527416, 'rahul@singh.com' ),
 ('gaurav' , 'jaat', 'udaipur', 'udaipur', 'rajhsthan', 7898, 7007896542, 'gaurav@jaat.com' );
 
-update Persons_Details set firstName = 'ajay' where firstName ='anuj' ;
-update Persons_Details set city = 'indore' where firstName ='ajay' ;
-update Persons_Details set state = 'MP' where firstName ='ajay' ;
-
 select * from Persons_Details ;
 
-delete from Persons_Details where firstName= 'ajay';
-select * from Persons_Details ;
+select * from Persons_Details where state= 'MP';
+
+
 
 
 
